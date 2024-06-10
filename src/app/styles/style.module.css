@@ -1,0 +1,265 @@
+#navbar {
+  background-color: #fff;
+}
+.logo_text a {
+  font-weight: 800;
+  font-size: 26px;
+  color: #4655b0;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+.outline_primary_button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #14279b;
+  border: 2px solid #14279b;
+  background-color: #fff;
+}
+.outline_primary_button:hover {
+  background-color: #14279b;
+  color: #fff;
+}
+.primary_button,
+.up_button {
+  background: #14279b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.up_button {
+  position: fixed;
+  bottom: 50px;
+  border-radius: 5px;
+  right: 50px;
+}
+.primary_button:hover,
+.up_button:hover {
+  background-color: #2383c4;
+}
+
+.nav_link:hover {
+  color: #14279b !important;
+}
+.hero_title {
+  margin: 0 0 10px 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #14279b;
+}
+.brand_section {
+  background-color: #f3f9fd;
+  min-height: 50px;
+  padding: 0 50px;
+}
+
+.img_fluid {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  filter: grayscale();
+}
+.img_fluid:hover {
+  filter: none;
+}
+
+.section_title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section_title h2::before,
+.section_title h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #14279b;
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.purecounter {
+  font-size: 36px;
+  display: block;
+  font-weight: 700;
+  color: #222222;
+}
+.counts i {
+  color: #14279b;
+}
+.counts p {
+  font-size: 14px;
+  color: #484848;
+}
+
+.about_icon {
+  font-size: 20px;
+  color: #14279b;
+  margin-left: -27px;
+  margin-right: 10px;
+}
+
+/* icon box css */
+.icon_box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+.icon_box:hover::before {
+  background: #14279b;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+.icon_box::before {
+  content: "";
+  position: absolute;
+  background: #e1f0fa;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.icon_box:hover {
+  color: #fff;
+}
+.service_icon {
+  background-color: #14279b;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service_icon i {
+  color: #fff;
+}
+.icon_box:hover .service_icon {
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+.icon_box:hover .service_icon i {
+  color: #14279b;
+}
+
+.title {
+  margin-top: 20px;
+  text-align: start;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.description {
+  text-align: start;
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+/* icon box css close*/
+.service_card {
+  background-color: #f6f6f6;
+  transition: all 0.3s ease-in-out;
+  color: #5e5e5e;
+}
+.service_card:hover {
+  transition: all 0.3s;
+  background-color: #14279b;
+  color: #fff;
+}
+
+.fuatures_box {
+  background-color: #f6f6f6;
+}
+
+.fuatures_box:hover {
+  background-color: #e7e7f8;
+}
+.fuatures_title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contact_about h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #14279b;
+}
+.contact_about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #888;
+  margin-bottom: 0;
+}
+.info p {
+  padding: 0 0 10px 10px;
+  line-height: 28px;
+  font-size: 14px;
+}
+.info .footer_icon {
+  color: #14279b;
+  font-size: 24px;
+}
+.footer {
+  color: #222222;
+  font-size: 14px;
+}
+
+.footer li {
+  color: #14279b;
+  cursor: pointer;
+}
+
+.footer li:hover {
+  color: #7c8cf7;
+  cursor: pointer;
+}
+
+.hero_image {
+  position: relative;
+  animation: myfirst 5s 10;
+  z-index: -10;
+}
+
+@keyframes myfirst {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0px;
+  }
+}
